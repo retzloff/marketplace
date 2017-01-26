@@ -7,7 +7,10 @@
     "Boris Brkic <bzbrkices@gmail.com>"
   ],
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "browserify -t [ babelify --presets es2015 ] -t vueify -e src/main.js -o build/build.js",
+    "watch": "watchify -t [ babelify --presets es2015 ] -t vueify -e src/main.js -o build/build.js --debug --verbose"
+  },
   "dependencies": {
     "vue": "^2.1.0",
     "vue-router": "^2.1.2"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>PersonListItem</h2>
+    <h2>PersonList</h2>
     <hr />
     
     <table class='table table-striped'>
