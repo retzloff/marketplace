@@ -1,4 +1,4 @@
 <template>
-  <h2 class='text-center'>We're working on it.</h2>
+  <h2 class='text-center'>Pick a component to view.</h2>
 </template>
   

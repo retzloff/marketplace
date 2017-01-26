@@ -1,25 +1,27 @@
 <template>
-  <div class='container-fluid'>
-    <h2>PersonDetail</h2>
+  <div>
+    <h2>Person Detail</h2>
     <hr />
-      <div class='row'>
- 
+
+    <div class='row'>
+      <div class='col-12'>
         <div class='media'>
-        <img class='d-flex align-self-top mr-3' v-bind:src="photoUrl" />
-        <div class='media-body'>
-          <div claass='row'>
-            <div class='col-10 h3'>{{ fullName }}</div>
-            <div class='col-2 text-right'>{{ location }}</div>
-          </div>
-          <div class='text-muted pb-2'>{{ jobcodeTitle }} | {{ supLevel }}</div>
-          <div>
-            <button class='btn btn-primary text-uppercase'>Impersonate</button>
-            <a class='text-uppercase' href='http://to.the.peoplesoft.com/'>Make Assignment</a>
+          <img class='d-flex align-self-center mr-3' v-bind:src="photoUrl" />
+          <div class='media-body'>
+            <div claass='row'>
+              <div class='text-right'>{{ location }}</div>
+              <div class='h3'>{{payGrade}} {{ fullName }}</div>
+              <div class='text-muted pb-2'>{{ jobcodeTitle }} | {{ supLevel }}</div>
+              <div class='text-right'>
+                <button class='btn btn-primary text-uppercase'>Impersonate</button>
+                <a class='text-uppercase' href='http://to.the.peoplesoft.com/'>Make Assignment</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
+    
   </div>
 </template>
 

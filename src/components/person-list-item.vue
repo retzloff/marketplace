@@ -1,8 +1,9 @@
 <template>
   <div>
-    <h2>PersonListItem</h2>
+    <h2>Person List Item</h2>
     <hr />
-    <div class='row'>
+    
+    <div class='row '>
       <div class='col-12'>
 
         <div class='card'>
@@ -22,6 +23,7 @@
 
       </div>
     </div>
+
   </div>
 </template>  
 

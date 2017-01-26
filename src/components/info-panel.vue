@@ -2,9 +2,9 @@
   <div>
     <h2>InfoPanel</h2>
     <hr />
+    
     <div class='row'>
       <div class='col-12'>
-
         <div class="card">
               <h4 class='card-header text-uppercase text-center'>Discover</h4>
             <div class="card-block">
@@ -14,8 +14,8 @@
               <button class='btn btn-primary btn-block'>Search Positions</button>
             </div>
           </div>
-
       </div>
     </div>
+
   </div>
 </template>

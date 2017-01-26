@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Position List</h2>
+    <h2>Classification Bar</h2>
     <hr />
 
     <div class='row'>

@@ -2,34 +2,41 @@
   <div>
     <h2>Position List</h2>
     <hr />
-    <table class='table table-striped'>
-      <tbody v-if="positions.length">
-        <tr v-for="position in positions">
-         <div class='media m-2'>
-          <div class='media-body'>
-            <div class='row'>
-              <div class='col-12 text-right'>{{ position.location }}</div>
-            </div>
-            <div class='row'>
-              <div class='col-1'>
-                <div class='h3 text-center'>{{ position.payGrade }}</div>        
-              </div>
-              <div class='col-11'>
-                <a href="#" class='h3'>{{position.jobTitle }}</a>
-                <div class='text-muted pb-2'>{{ position.jobcodeTitle }} | {{ position.supLevel }}</div>
-                <div class="text-right">
-                  <a class='text-uppercase mr-3' href='#'>SHARE</a>
-                  <a class='text-uppercase' href='#'>FOLLOW</a>
+
+    <div class='row'>
+      <div class='col-12'>
+        <table class='table table-striped'>
+          <tbody v-if="positions.length">
+            <tr v-for="position in positions">
+             <div class='media m-2'>
+              <div class='media-body'>
+                <div class='row'>
+                  <div class='col-12 text-right'>{{ position.location }}</div>
+                </div>
+                <div class='row'>
+                  <div class='col-1'>
+                    <div class='h3 text-center'>{{ position.payGrade }}</div>        
+                  </div>
+                  <div class='col-11'>
+                    <a href="#" class='h3'>{{position.jobTitle }}</a>
+                    <div class='text-muted pb-2'>{{ position.jobcodeTitle }} | {{ position.supLevel }}</div>
+                    <div class="text-right">
+                      <a class='text-uppercase mr-3' href='#'>SHARE</a>
+                      <a class='text-uppercase' href='#'>FOLLOW</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        </tr>
-      </tbody>
-    </table>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
   </div>
 </template>
+
 
 <script>
 export default {

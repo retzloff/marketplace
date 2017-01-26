@@ -7,8 +7,8 @@ const NavigationBar = require('./components/navigation-bar.vue')
 const PersonDetail = require('./components/person-detail.vue')
 const PersonList = require('./components/person-list.vue')
 const PersonListItem = require('./components/person-list-item.vue')
-const PositionDetail = require('./components/position-detail.vue')
-const PositionDetailList = require('./components/position-detail-list.vue')
+const DetailItem = require('./components/detail-item.vue')
+const DetailList = require('./components/detail-list.vue')
 const PositionList = require('./components/position-list.vue')
 const PositionListItem = require('./components/position-list-item.vue')
 const TableOfContentsNavigation = require('./components/table-contents-navigation.vue')
@@ -30,8 +30,8 @@ const routes = [
   { path: '/info-panel', component: InfoPanel },
   { path: '/position-list', component: PositionList },
   { path: '/position-list-item', component: PositionListItem },
-  { path: '/position-detail', component: PositionDetail },
-  { path: '/position-detail-list', component: PositionDetailList },
+  { path: '/detail-item', component: DetailItem },
+  { path: '/detail-list', component: DetailList },
   { path: '/facet-group', component: FacetGroup },
   { path: '/person-list', component: PersonList },
   { path: '/person-list-item', component: PersonListItem },
